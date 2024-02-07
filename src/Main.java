@@ -28,6 +28,9 @@ public class Main {
         //clear buffer
         in.nextLine();
         //if statement that determines and outputs if user gets a wrist band or not
-
+        if( age >= DRINKING_AGE)
+        {
+            System.out.println("You get a wristband. Drink responsibly!");
+        }
     }
 }
