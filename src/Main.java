@@ -22,6 +22,12 @@ public class Main {
         int age = 0;
         int DRINKING_AGE = 21;
         //output asking for user age
-        System.out.println();
+        System.out.println("Enter your age:");
+        //input for user age
+        age = in.nextInt();
+        //clear buffer
+        in.nextLine();
+        //if statement that determines and outputs if user gets a wrist band or not
+
     }
 }
